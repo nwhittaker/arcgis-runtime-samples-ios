@@ -11,7 +11,7 @@ The ```master``` branch of this repository contains samples configured for the l
 ## Features
 * Maps - Open, create, inteact with and save maps
 * Layers - Layer types offered by the SDK
-* Features - Workign with Feature layers
+* Features - Working with Feature layers
 * Edit Data - Adding, deleting and editing features
 * Display Information - Displaying graphics, popups and callouts
 * Search - Finding an address
@@ -20,7 +20,7 @@ The ```master``` branch of this repository contains samples configured for the l
 * Scenes - Display scenes, 3D symbols, and scene layers
 
 ## Requirements
-* [ArcGIS Runtime SDK for iOS](https://developers.arcgis.com/en/ios/) 100.2 (or higher). 
+* [ArcGIS Runtime SDK for iOS](https://developers.arcgis.com/en/ios/) 100.2.1 (or higher). 
 * XCode 9 (or higher)
 * iOS 11 SDK (or higher)
 
