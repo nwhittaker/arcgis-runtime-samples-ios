@@ -46,7 +46,6 @@
                         <viewLayoutGuide key="safeArea" id="gaC-G3-XSa"/>
                     </view>
                     <connections>
-                        <outlet property="bannerLabel" destination="ucs-S5-IDS" id="kMd-5m-vQW"/>
                         <outlet property="mapView" destination="oKD-Tt-6SP" id="oZs-xB-0Nd"/>
                     </connections>
                 </viewController>
