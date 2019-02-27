@@ -62,10 +62,12 @@ class DisplayLocationViewController: UIViewController, CustomContextSheetDelegat
         case 0:
             self.mapView.locationDisplay.stop()
         case 1:
+            mapView.contentInset.bottom = 200
             self.startLocationDisplay(with: AGSLocationDisplayAutoPanMode.off)
         case 2:
             self.startLocationDisplay(with: AGSLocationDisplayAutoPanMode.recenter)
         case 3:
+            mapView.contentInset = .zero
             self.startLocationDisplay(with: AGSLocationDisplayAutoPanMode.navigation)
         default:
             self.startLocationDisplay(with: AGSLocationDisplayAutoPanMode.compassNavigation)
